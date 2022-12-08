@@ -1,24 +1,23 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: rgb(232, 227, 227);
-    padding: 1.5rem 6.3rem;
-    margin-bottom: 20px;
-    background: #172734;
-  }
-  
-  .header_logo {
-    font-size: 2rem;
-  }
-  
-  .header__link {
-    color: rgb(232, 227, 227);
-  }
-  
-  .globe {
-    color: rgb(224, 214, 214);
-    font-size: 2rem;
-    font-weight: 800;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(232, 227, 227);
+  padding: 1.5rem 6.3rem;
+  margin-bottom: 20px;
+  background: #172734;
+}
+
+.header_logo {
+  font-size: 2rem;
+}
+
+.header__link {
+  color: rgb(232, 227, 227);
+}
+
+.globe {
+  color: rgb(224, 214, 214);
+  font-size: 2rem;
+  font-weight: 800;
+}

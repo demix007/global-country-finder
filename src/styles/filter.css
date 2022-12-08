@@ -2,43 +2,42 @@
 /* stylelint-disable csstree/validator  */
 
 .search-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: hsl(202, 21%, 93%);
-    padding: 0 6.5rem;
-    font-size: 1.2rem;
-  }
-  
-  .search-input {
-    font-weight: 800;
-    outline: none;
-    border: none;
-    color: hsl(202, 21%, 93%);
-    background-color: hsl(205, 42%, 17%);
-    padding: 0.625rem 1rem;
-    width: 16rem;
-    border-radius: 5px;
-  }
-  
-  .search-input::placeholder {
-    font-weight: 800;
-    letter-spacing: 1px;
-    color: hsl(210, 17%, 95%);
-  }
-  
-  .form__input {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .search-btn {
-    color: hsl(195, 25%, 97%);
-    border-radius: 0.5rem;
-    width: 3rem;
-    font-size: 1.2rem;
-    padding: 0 10px;
-    background-color: hsl(205, 42%, 17%);
-    border: none;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(202, 21%, 93%);
+  padding: 0 6.5rem;
+  font-size: 1.2rem;
+}
+
+.search-input {
+  font-weight: 800;
+  outline: none;
+  border: none;
+  color: hsl(202, 21%, 93%);
+  background-color: hsl(205, 42%, 17%);
+  padding: 0.625rem 1rem;
+  width: 16rem;
+  border-radius: 5px;
+}
+
+.search-input::placeholder {
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: hsl(210, 17%, 95%);
+}
+
+.form__input {
+  display: flex;
+  gap: 10px;
+}
+
+.search-btn {
+  color: hsl(195, 25%, 97%);
+  border-radius: 0.5rem;
+  width: 3rem;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  background-color: hsl(205, 42%, 17%);
+  border: none;
+}
