@@ -1,0 +1,61 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator  */
+
+@use '../../sass/abstracts/variables';
+
+.country {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: auto;
+  padding: 100px;
+  min-width: 500px;
+  min-height: 500px;
+}
+
+.country__flag {
+  width: 45rem;
+}
+
+.country__details {
+  display: grid;
+}
+
+.country-data-container {
+  display: flex;
+  gap: 40px;
+  background-color: rgb(71, 89, 104);
+  padding: 15px 25px;
+}
+
+.country-data,
+.continent {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+}
+
+.country-data h3 > span,
+.continent h3 > span {
+  color: hsl(0, 26%, 79%);
+}
+
+.back-button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-block-start: 2rem;
+  margin-inline-start: 1.4rem;
+  padding: 0.6rem 1.1rem;
+  color: rgb(210, 54, 54);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .country {
+    grid-template-columns: 1fr;
+  }
+
+  .country__flag {
+    margin-block-start: 2rem;
+  }
+}
