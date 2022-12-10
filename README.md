@@ -49,7 +49,7 @@ This is a mobile first web application that displays data of coins in cryptocurr
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Live-Demo
-> Here is a link (https://coin-tracker-capstone.netlify.app/) to the live page.
+> Here is a link (https://globalcountryfinder.netlify.app/) to the live page.
 
 
 
