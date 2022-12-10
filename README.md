@@ -51,6 +51,8 @@ This is a mobile first web application that displays data of coins in cryptocurr
 # Live-Demo
 > Here is a link (https://globalcountryfinder.netlify.app/) to the live page.
 
+# Live-Project-Presentation
+> Here is a link (https://www.loom.com/share/ebdd57cfcfc646a8a93e5bbae9764ce4) to the live presentation video on loom.
 
 
 # 💻 Getting Started <a name="getting-started"></a>
