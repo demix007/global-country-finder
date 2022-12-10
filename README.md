@@ -1,65 +1,159 @@
-# React and Redux
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+# 📗 Table of Contents
 
-## Set-up GitHub Actions
+- [📖 About the Project](#about-project)
+- [🛠 Built With](#built-with)
+  - [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show your support](#support)
+  - [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style issues.
 
-[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+# Capstone-React
+This is a mobile first web application that displays data of coins in cryptocurrency with their prices.
 
-[ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+# 🛠 Built With <a name="built-with"></a>
+ > This project was built with; 
+- HTML 
+- CSS
+- Javascript
+- React
+- Redux
+- Jest
 
-Please do the following **steps in this order**:
+# Tech Stack <a name="tech-stack"></a>
+> ### Technologies used 
+- GitHub 
+- Visual Studio Code 
+- GitBash
+- Webpack
+<details> 
+<summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+# Key Features <a name="key-features"></a>
+- **Displays all cryptocurrency coins with their prices**
+- **Filters a coin to display it's information**
 
-![gh actions checks](../assets/images/gh-actions-eslint-stylelint-checks.png)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+# Live-Demo
+> Here is a link (https://coin-tracker-capstone.netlify.app/) to the live page.
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
 
-## Set-up linters in your local env
 
-### ESLint
+# 💻 Getting Started <a name="getting-started"></a>
+> In order to use the project files, Kindly follow these steps:
 
-1. Run 
-    ```
-    npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-    ```
-    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.eslintrc.json](./.eslintrc.json) and [.babelrc](./.babelrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx eslint .` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+## Steps
+- To clone the project select the desired directory in cmd and run: `git clone git@github.com:demix007/global-country-finder.git`
+- Install npm dependencies: `npm install`
+- To check the live preview: `npm run start`
+- For StyLint test, run: `npx stylelint "**/*.{css,scss}"`
+- For WebHint test, run: `npx hint .`
+- For EsLint test, run: `npx eslint .`
 
-### Stylelint
+## Prerequisites
+- Have basic level knowledge about HTML/CSS/JS/ES6/React/Redux
+- Have basic level knowledge about linters/Webpack
+- Have basic level knowledge about the working of website
 
-1. Run
+### Setup
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone https://github.com/yetemegn-telaye/Capstone-React.git
+```
+2. To access cloned directory run:
+```bash
+cd Capstone-React
 
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
 
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+### Install
+> To install linters, react and other project's dependencies run:
+```bash
+npm install
+```
+## Run
+```bash
+1. To run this project :
+npm start
+2. open the urs localhost:8080 on your browser
 
-## Test/Deployment Actions
+```
 
-Feel free to add your own deployment actions which can run your tests and deploy to Heroku.
+### `npm run build`
 
-Make sure that you do not modify the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) but that you create a separe GitHub Action workflow file for that.
+Builds the app for production to the `build` folder.\
+
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode for React.\
+
+## Run Test for Linters
+
+For tracking linter errors locally you need to follow these steps:
+
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
+
+2. For tracking linter errors in CSS or SASS files run:
+
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
+
+3. For tracking linter errors in JavaScript files run:
+
+```bash
+npx eslint .
+```
+
+## Author
+
+👤 **Ayodeji Abidemi**
+
+[GitHub](https://github.com/demix007) | [Twitter](https://twitter.com/dat_dope_demix) | [LinkedIn](linkedin.com/in/ayodeji-abidemi)
+
+
+## ⭐️ Show your support <a name="support"></a>
+Give a ⭐️ if you like this project!
+
+## 🙏 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights 
+- I would like to give credit to [Nelson Sakawa on Behance](https://www.behance.net/sakwadesignstudio) for the inspiration of the design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/demix007/bookstore-app/blob/dev/LICENSE) licensed.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
