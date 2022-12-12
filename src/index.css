@@ -23,7 +23,7 @@ img {
 .country_card_container {
   background: hsl(208, 21%, 62%);
   transition: all 0.3s;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   margin-top: 3rem;
   min-width: 39rem;
 }
@@ -63,19 +63,6 @@ img {
   width: 17rem;
 }
 
-.flag__section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.country_info {
-  padding: 20px;
-  color: hsl(200, 15%, 8%);
-  border-radius: 0 0 5px 5px;
-}
-
-
 @media only screen and (max-width: 475px) {
   .header {
     display: flex;
@@ -112,7 +99,7 @@ img {
   .country_card_container {
     background: hsl(208, 21%, 62%);
     transition: all 0.3s;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     margin-top: 3rem;
     min-width: 5rem;
   }
@@ -120,6 +107,7 @@ img {
   .search-container {
     margin-left: -3rem;
   }
+
   .country {
     display: flex;
     flex-direction: column;
@@ -138,8 +126,7 @@ img {
     min-width: 2rem;
   }
 
-
   .back-button {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
