@@ -1,3 +1,36 @@
+.country_card_container {
+  background-color: rgb(165, 14, 99);
+  transition: all 0.3s;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+  min-width: 39rem;
+}
+
+.country_card_container:hover {
+  transition: all 0.4s;
+  transform: scale(1.15);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-between;
+  margin: 10px auto;
+  gap: 1rem;
+  text-align: center;
+}
+
+.flag__section {
+  height: 250px;
+}
+
+.flag__section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .flag_section img {
   margin-block-end: 0;
   min-height: 5rem;
@@ -6,7 +39,7 @@
 
 .country_info {
   border-radius: 0 0 5px 5px;
-  background-color: rgb(71, 89, 104);
+  background-color: rgb(165, 14, 99);
   min-height: 1rem;
 }
 
@@ -26,4 +59,14 @@
 
 .country_info h3 > span {
   color: hsl(0, 26%, 79%);
+}
+
+.c-arrow {
+  margin-left: 93%;
+  z-index: 100;
+  margin-bottom: -5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.2rem;
+
 }

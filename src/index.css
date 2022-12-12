@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #2d4052;
+  background-color: rgb(204, 39, 135);
 }
 
 img {
@@ -21,7 +21,7 @@ img {
 }
 
 .country_card_container {
-  background: hsl(208, 21%, 62%);
+  background: rgb(187, 19, 117);
   transition: all 0.3s;
   margin-bottom: 0.5rem;
   margin-top: 3rem;
@@ -97,7 +97,7 @@ img {
   }
 
   .country_card_container {
-    background: hsl(208, 21%, 62%);
+    background: hsl(0, 21%, 62%);
     transition: all 0.3s;
     margin-bottom: 0.5rem;
     margin-top: 3rem;
@@ -124,6 +124,14 @@ img {
 
   .country-data-container {
     min-width: 2rem;
+  }
+
+  .fa-arrow-circle-right {
+    margin-left: 80%;
+    z-index: 100;
+    margin-bottom: -4.8rem;
+    font-size: 1rem;
+    color: #fff;
   }
 
   .back-button {

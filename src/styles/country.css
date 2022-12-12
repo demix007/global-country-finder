@@ -23,7 +23,7 @@
 .country-data-container {
   display: flex;
   gap: 40px;
-  background-color: rgb(66, 65, 65);
+  background-color: rgb(131, 17, 84);
   width: 20rem;
   padding: 15px 25px;
 }
@@ -32,6 +32,14 @@
 .continent {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: azure;
+}
+
+.arrow-right {
+  margin-left: 43%;
+  z-index: 100;
+  margin-bottom: -5rem;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .country-data h3 > span,
