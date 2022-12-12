@@ -58,7 +58,7 @@ img {
   }
 
   .country_card_container {
-    background: hsl(0, 21%, 62%);
+    background-color: rgb(165, 14, 99);
     transition: all 0.3s;
     margin-bottom: 0.5rem;
     margin-top: 3rem;
