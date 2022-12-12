@@ -23,7 +23,9 @@ img {
 .country_card_container {
   background: hsl(208, 21%, 62%);
   transition: all 0.3s;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
+  margin-top: 3rem;
+  min-width: 39rem;
 }
 
 .country_card_container:hover {
@@ -32,29 +34,13 @@ img {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  padding: 20px;
-}
-
-@media (min-width: 640px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 992px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-    padding: 2rem 6.25rem;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-between;
+  margin: 10px auto;
+  gap: 1rem;
+  text-align: center;
 }
 
 .flag__section {
@@ -71,4 +57,89 @@ img {
   padding: 20px;
   color: hsl(200, 15%, 8%);
   border-radius: 0 0 5px 5px;
+}
+
+.country__flag {
+  width: 17rem;
+}
+
+.flag__section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.country_info {
+  padding: 20px;
+  color: hsl(200, 15%, 8%);
+  border-radius: 0 0 5px 5px;
+}
+
+
+@media only screen and (max-width: 475px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    min-width: 33rem;
+  }
+
+  .header_logo,
+  .fa-globe,
+  .globe span {
+    font-size: 1rem;
+  }
+
+  .header__link {
+    padding-right: 10px;
+    margin-top: -1.2rem;
+  }
+
+  .globe {
+    margin-top: -1.7rem;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+    margin: 10px auto;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .country_card_container {
+    background: hsl(208, 21%, 62%);
+    transition: all 0.3s;
+    margin-bottom: .5rem;
+    margin-top: 3rem;
+    min-width: 5rem;
+  }
+
+  .search-container {
+    margin-left: -3rem;
+  }
+  .country {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin-block-start: 3rem;
+  }
+
+  .country__flag {
+    margin-block-start: 2rem;
+    min-width: 20rem;
+  }
+
+  .country-data-container {
+    min-width: 2rem;
+  }
+
+
+  .back-button {
+    font-size: .9rem;
+  }
 }

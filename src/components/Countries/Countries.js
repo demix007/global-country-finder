@@ -18,12 +18,12 @@ const Countries = () => {
       {
         countries.map((country) => (
           <Link to={`/countries/${country.name.common}`} key={country.name.common}>
-            <div className="country_card_container">
+            <div className="country_card_container item">
               <div className="flag__section">
                 <img src={country.flags.svg} alt="" />
               </div>
 
-              <div className="country_info">
+              <div className="country_info item">
                 <h2>{country.name.common}</h2>
                 <h3>
                   Capital:
