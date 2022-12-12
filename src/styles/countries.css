@@ -2,7 +2,7 @@
   background-color: rgb(165, 14, 99);
   transition: all 0.3s;
   margin-bottom: 0.5rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   min-width: 39rem;
 }
 
@@ -14,11 +14,12 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  min-width: 30%;
   justify-content: space-between;
-  margin: 10px auto;
-  gap: 1rem;
+  margin: 5px auto;
+  gap: 0.5rem;
   text-align: center;
+  padding: 2rem;
 }
 
 .flag__section {
