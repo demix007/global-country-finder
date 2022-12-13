@@ -74,7 +74,7 @@ This is a mobile first web application that displays data of coins in cryptocurr
 ### Setup
 1. Download the **Zip** file or clone the repo with:
 ```bash
-git clone https://github.com/yetemegn-telaye/Capstone-React.git
+git clone git clone git@github.com:demix007/global-country-finder.git
 ```
 2. To access cloned directory run:
 ```bash
