@@ -50,13 +50,13 @@ img {
   .country_card_container {
     min-width: 20rem;
     margin: 2rem 0 0.5rem 3rem;
-
   }
 
   .grid {
     padding: 0;
     margin-right: 3rem;
   }
+
   .search-container {
     margin-left: 8rem;
   }
@@ -68,6 +68,7 @@ img {
     align-items: center;
     margin-left: 15rem;
   }
+
   .country {
     display: flex;
     flex-direction: column;
