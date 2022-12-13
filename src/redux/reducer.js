@@ -2,17 +2,17 @@
 import axios from 'axios';
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const fetchAsyncCountries = createAsyncThunk('countries/fetchAyncCountries', async () => {
+const fetchAsyncCountries = createAsyncThunk('countries/fetchAsyncCountries', async () => {
   const countriesData = await axios.get('https://restcountries.com/v3.1/all');
   return countriesData.data;
 });
 
-const fetchSearchedCountryDetail = createAsyncThunk('countries/etchSearchedCountryDetail', async (term) => {
+const fetchSearchedCountryDetail = createAsyncThunk('countries/fetchSearchedCountryDetail', async (term) => {
   const countryData = await axios.get(`https://restcountries.com/v3.1/name/${term}`);
   return countryData.data;
 });
 
-const fetchAsyncCountryDetail = createAsyncThunk('countries/fetchAyncCountryDetail', async (name) => {
+const fetchAsyncCountryDetail = createAsyncThunk('countries/fetchAsyncCountryDetail', async (name) => {
   const countryData = await axios.get(`https://restcountries.com/v3.1/name/${name}`);
   return countryData.data;
 });
