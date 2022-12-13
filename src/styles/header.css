@@ -5,7 +5,8 @@
   color: rgb(232, 227, 227);
   padding: 1.5rem 6.3rem;
   margin-bottom: 20px;
-  background: #172734;
+  background-color: rgb(131, 17, 84);
+  font-family: 'Lato', sans-serif;
 }
 
 .header_logo {
@@ -16,8 +17,16 @@
   color: rgb(232, 227, 227);
 }
 
+.header__link h3 {
+  font-family: 'Lato', sans-serif;
+}
+
 .globe {
   color: rgb(224, 214, 214);
   font-size: 2rem;
   font-weight: 800;
+}
+
+.fa-globe span {
+  font-family: 'Lato', sans-serif;
 }

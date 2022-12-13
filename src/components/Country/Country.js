@@ -17,7 +17,7 @@ const Country = () => {
     <>
       {
         countryData && (
-        <div className="countryCard">
+        <div className="country-card">
           <Link to="/">
             <button type="button" className="back-button">
               {' '}
@@ -28,10 +28,11 @@ const Country = () => {
           </Link>
 
           <div className="country">
+            <i className="fa-solid fa-arrow-circle-right arrow-right" aria-hidden="true" />
+            {' '}
             <div className="country__flag">
               <img src={countryData[0]?.flags?.svg} alt="" />
             </div>
-
             <div className="country__details">
               <div className="country-data-container">
                 <div className="country-data">

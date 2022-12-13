@@ -13,62 +13,97 @@
 }
 
 body {
-  background-color: #2d4052;
+  background-color: rgb(204, 39, 135);
 }
 
 img {
   max-width: 100%;
 }
 
-.country_card_container {
-  background: hsl(208, 21%, 62%);
-  transition: all 0.3s;
-  margin-bottom: 1rem;
+.country__flag {
+  width: 15rem;
 }
 
-.country_card_container:hover {
-  transition: all 0.4s;
-  transform: scale(1.15);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  padding: 20px;
-}
-
-@media (min-width: 640px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
+@media only screen and (max-width: 475px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 50rem;
   }
-}
 
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
+  .header_logo,
+  .fa-globe,
+  .globe span {
+    font-size: 1rem;
   }
-}
 
-@media (min-width: 992px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-    padding: 2rem 6.25rem;
+  .header__link {
+    padding-right: 10px;
+    margin-top: -1.2rem;
   }
-}
 
-.flag__section {
-  height: 250px;
-}
+  .globe {
+    margin-top: -1.7rem;
+  }
 
-.flag__section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  .country_card_container {
+    min-width: 20rem;
+    margin: 2rem 0 0.5rem 3rem;
+  }
 
-.country_info {
-  padding: 20px;
-  color: hsl(200, 15%, 8%);
-  border-radius: 0 0 5px 5px;
+  .grid {
+    padding: 0;
+    margin-right: 3rem;
+  }
+
+  .search-container {
+    margin-left: 8rem;
+  }
+
+  .country-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+  }
+
+  .country {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin-block-start: 3rem;
+  }
+
+  .country__flag {
+    margin-block-start: 2rem;
+    min-width: 20rem;
+  }
+
+  .country-data-container {
+    min-width: 2rem;
+  }
+
+  .fa-arrow-circle-right {
+    margin-left: 80%;
+    z-index: 100;
+    margin-bottom: -4.8rem;
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .c-arrow {
+    margin-left: 93%;
+    z-index: 100;
+    margin-bottom: -4.8rem;
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .back-button {
+    font-size: 0.9rem;
+  }
 }

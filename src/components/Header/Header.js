@@ -11,7 +11,7 @@ const Header = () => (
     <div className="globe">
       <i className="fa-solid fa-globe" aria-hidden="true" />
       {' '}
-      The Globe
+      <span>The Globe</span>
     </div>
   </div>
 );

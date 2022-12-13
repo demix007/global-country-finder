@@ -1,31 +1,27 @@
-/* stylelint-disable at-rule-no-unknown */
-/* stylelint-disable csstree/validator  */
-
-@use '../../sass/abstracts/variables';
+.country-card {
+  display: flex;
+  flex-direction: column;
+}
 
 .country {
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   margin: auto;
+  align-items: center;
+  justify-content: center;
   padding: 100px;
-  min-width: 500px;
-  min-height: 500px;
 }
 
 .country__flag {
-  width: 45rem;
-}
-
-.country__details {
-  display: grid;
+  min-width: 40rem;
 }
 
 .country-data-container {
   display: flex;
   gap: 40px;
-  background-color: rgb(71, 89, 104);
+  background-color: rgb(131, 17, 84);
+  width: 20rem;
   padding: 15px 25px;
 }
 
@@ -33,6 +29,14 @@
 .continent {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: azure;
+}
+
+.arrow-right {
+  margin-left: 45%;
+  z-index: 100;
+  margin-bottom: -4.2rem;
+  font-size: 1.7rem;
+  color: #fff;
 }
 
 .country-data h3 > span,
@@ -48,14 +52,4 @@
   padding: 0.6rem 1.1rem;
   color: rgb(210, 54, 54);
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .country {
-    grid-template-columns: 1fr;
-  }
-
-  .country__flag {
-    margin-block-start: 2rem;
-  }
 }

@@ -1,69 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It should render the component Correctly 1`] = `
+exports[`Countries Countries component is rendered correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="header"
-      >
-        <div
-          class="header_logo"
-        >
-          <a
-            class="header__link"
-            href="/"
-          >
-            <h3>
-              Welcome To The Global Village !
-            </h3>
-          </a>
-        </div>
-        <div
-          class="globe"
-        >
-          <i
-            aria-hidden="true"
-            class="fa-solid fa-globe"
-          />
-           
-          <span>
-            The Globe
-          </span>
-        </div>
-      </div>
+        class="grid"
+      />
     </div>
   </body>,
   "container": <div>
     <div
-      class="header"
-    >
-      <div
-        class="header_logo"
-      >
-        <a
-          class="header__link"
-          href="/"
-        >
-          <h3>
-            Welcome To The Global Village !
-          </h3>
-        </a>
-      </div>
-      <div
-        class="globe"
-      >
-        <i
-          aria-hidden="true"
-          class="fa-solid fa-globe"
-        />
-         
-        <span>
-          The Globe
-        </span>
-      </div>
-    </div>
+      class="grid"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
