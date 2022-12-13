@@ -17,7 +17,7 @@ const Country = () => {
     <>
       {
         countryData && (
-        <div className="countryCard">
+        <div className="country-card">
           <Link to="/">
             <button type="button" className="back-button">
               {' '}

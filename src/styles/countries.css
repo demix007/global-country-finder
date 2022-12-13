@@ -1,9 +1,7 @@
 .country_card_container {
   background-color: rgb(165, 14, 99);
   transition: all 0.3s;
-  margin-bottom: 0.5rem;
-  margin-top: 2rem;
-  min-width: 39rem;
+  margin: 2rem 2rem 1rem 3rem;
 }
 
 .country_card_container:hover {
@@ -12,12 +10,8 @@
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  min-width: 30%;
-  justify-content: space-between;
-  margin: 5px auto;
-  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
   padding: 2rem;
 }
@@ -63,10 +57,10 @@
 }
 
 .c-arrow {
-  margin-left: 93%;
+  margin-left: 95%;
   z-index: 100;
-  margin-bottom: -5rem;
-  font-size: 1.5rem;
+  margin-bottom: -7rem;
+  font-size: 1.1rem;
   color: #fff;
-  padding: 0.2rem;
+  padding: 0.3rem;
 }
