@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { MemoryRouter as Router } from 'react-router-dom';
 import Header from '../components/Header/Header';
 
-it('It should render the component Correctly', () => {
+it('Header component is rendered correctly', () => {
   const header = render(
     <Router>
       <Header />
