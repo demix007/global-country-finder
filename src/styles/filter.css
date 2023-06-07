@@ -5,26 +5,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: hsl(202, 21%, 93%);
+  color: hsl(180, 5%, 4%);
   padding: 0 6.5rem;
   font-size: 1.2rem;
+  margin-left: 4rem;
 }
 
 .search-input {
   font-weight: 800;
   outline: none;
   border: none;
-  color: hsl(202, 21%, 93%);
-  background-color: rgb(131, 17, 84);
+  background-color: transparent;
   padding: 0.625rem 1rem;
-  width: 16rem;
+  width: 36rem;
   border-radius: 5px;
+  border: 1px solid black;
 }
 
 .search-input::placeholder {
   font-weight: 800;
   letter-spacing: 1px;
-  color: hsl(210, 17%, 95%);
+  color: rgb(21, 17, 17);
 }
 
 .form__input {
