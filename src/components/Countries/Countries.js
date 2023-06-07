@@ -13,33 +13,44 @@ const Countries = () => {
 
   const countries = useSelector(getAllCountries);
 
+  const myStyle = {
+    maxWidth: '540px',
+  };
+
   return (
     <div className="grid">
       {
         countries.map((country) => (
           <Link to={`/countries/${country.name.common}`} key={country.name.common}>
-            <div className="country_card_container item">
-              <div>
-                <i className="fa-solid fa-arrow-circle-right c-arrow" aria-hidden="true" />
-                {' '}
-              </div>
-              <div className="flag__section">
-                <img src={country.flags.svg} alt="" />
-              </div>
-              <div className="country_info item">
-                <h2>{country.name.common}</h2>
-                <h3>
-                  Capital:
-                  <span>{country.capital}</span>
-                </h3>
-                <h3>
-                  Region:
-                  <span>{country.region}</span>
-                </h3>
-                <h3>
-                  Population:
-                  <span>{country.population}</span>
-                </h3>
+
+            <div className="card mb-3 cards-container" style={myStyle}>
+              <div className="row g-0 ">
+                <div className="col-md-4">
+                  <img src={country.flags.svg} alt="" className="img-fluid rounded-start flag" />
+                </div>
+                <div className="col-md-8">
+                  <div className="card-body details">
+                    <button type="button" className="btn btn-primary">
+                      <h5 className="card-title text">
+                        <span className="bold">Name:</span>
+                        {country.name.common}
+                      </h5>
+                    </button>
+
+                    <button type="button" className="btn btn-info region-btn">
+                      <p className="card-text text">
+                        <span className="bold">Region:</span>
+                        {country.region}
+                      </p>
+                    </button>
+                    <button type="button" className="btn btn-warning pop-btn">
+                      <p className="card-text text">
+                        <span className="bold">Population:</span>
+                        {country.population}
+                      </p>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </Link>

@@ -13,9 +13,9 @@ const Filter = () => {
   };
 
   return (
-    <div className="search-container">
+    <div className="container-lg search-container">
       <form className="form__input" onSubmit={submitHandler}>
-        <input type="search" name="search" id="search" placeholder="Search for a country" className="search-input" onChange={(e) => setTerm(e.target.value)} value={term} />
+        <input type="search" name="search" id="search" placeholder="Search for a country" className="btn btn-outline-light search-input" onChange={(e) => setTerm(e.target.value)} value={term} />
         <button type="submit" className="search-btn" aria-label="search-country"><i className="fa-sharp fa-solid fa-magnifying-glass-location" /></button>
       </form>
     </div>
