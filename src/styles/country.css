@@ -1,0 +1,55 @@
+.country-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.country__flag {
+  min-width: 40rem;
+}
+
+.country-data-container {
+  display: flex;
+  gap: 40px;
+  background-color: rgb(131, 17, 84);
+  width: 20rem;
+  padding: 15px 25px;
+}
+
+.country-data,
+.continent {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+}
+
+.arrow-right {
+  margin-left: 89%;
+  z-index: 100;
+  margin-bottom: -4rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.country-data h3 > span,
+.continent h3 > span {
+  color: hsl(0, 26%, 79%);
+}
+
+.back-button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-block-start: 2rem;
+  margin-inline-start: 1.4rem;
+  padding: 0.6rem 1.1rem;
+  color: rgb(210, 54, 54);
+  cursor: pointer;
+}

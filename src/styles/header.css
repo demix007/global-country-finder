@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(232, 227, 227);
+  width: 100%;
+  padding: 1.5rem 6.3rem;
+  margin-bottom: 20px;
+  background-image: linear-gradient(180deg, rgb(96, 112, 153), rgb(159, 159, 99), rgb(89, 89, 211));
+  font-family: 'Lato', sans-serif;
+}
+
+.header_logo {
+  font-size: 2rem;
+}
+
+.header__link {
+  color: rgb(232, 227, 227);
+}
+
+.header__link h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+.globe {
+  color: rgb(224, 214, 214);
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.fa-globe span {
+  font-family: 'Lato', sans-serif;
+}

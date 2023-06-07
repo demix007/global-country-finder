@@ -1,0 +1,43 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator  */
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(180, 5%, 4%);
+  padding: 0 6.5rem;
+  font-size: 1.2rem;
+  margin-left: 4rem;
+}
+
+.search-input {
+  font-weight: 800;
+  outline: none;
+  background-color: transparent;
+  padding: 0.625rem 1rem;
+  width: 36rem;
+  border-radius: 5px;
+  border: 1px solid rgb(13, 13, 13);
+}
+
+.search-input::placeholder {
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: rgb(21, 17, 17);
+}
+
+.form__input {
+  display: flex;
+  gap: 10px;
+}
+
+.search-btn {
+  color: hsl(195, 25%, 97%);
+  border-radius: 0.5rem;
+  width: 3rem;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  background-color: rgb(131, 17, 84);
+  border: none;
+}
