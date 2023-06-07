@@ -18,7 +18,7 @@
   padding: 0.625rem 1rem;
   width: 36rem;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid rgb(13, 13, 13);
 }
 
 .search-input::placeholder {
