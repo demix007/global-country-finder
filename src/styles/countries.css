@@ -19,13 +19,14 @@
   margin-top: 1rem;
   width: auto;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
   padding: 2rem;
   margin-left: 8rem;
-} 
+}
 
 .flag {
   height: 100%;
